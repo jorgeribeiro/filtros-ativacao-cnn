@@ -8,6 +8,7 @@ Implementação, treinamento e teste de CNNs para reconhecimento de expressões 
 ## Tecnologias
 - Keras
 - TensorFlow
+- [quiver](https://github.com/keplr-io/quiver)
 
 ## Dataset
 - CK+
