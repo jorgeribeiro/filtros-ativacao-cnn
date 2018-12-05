@@ -23,7 +23,6 @@ classes = CK_EXTENDED_EMOTIONS
 # Load model
 model = load_model(MODELS_PATH + 'model_ck_extended_inception_v3_1.h5')
 print ('[+] Model loaded')
-print (model.summary())
 
 from quiver_engine.server import launch
 launch(model, classes=classes, input_folder='./imgs')
