@@ -3,7 +3,6 @@ from keras.applications.vgg16 import VGG16
 from keras.applications.inception_v3 import InceptionV3
 
 from dataset_loader import DatasetLoader
-from network_builder import NetworkBuilder
 from constants import *
 
 import plot_model
@@ -51,7 +50,6 @@ datagen = ImageDataGenerator(
 
 # Build model
 # Comment/uncomment to select model to use
-network_builder = NetworkBuilder()
 # model = VGG16(weights=None, input_shape=dataset.images.shape[1:], classes=num_classes)
 model = InceptionV3(weights=None, input_shape=dataset.images.shape[1:], classes=num_classes)
 
