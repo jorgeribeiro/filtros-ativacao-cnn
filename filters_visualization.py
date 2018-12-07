@@ -21,7 +21,7 @@ dataset.ck_extended_load_from_save()
 classes = CK_EXTENDED_EMOTIONS
 
 # Load model
-model = load_model(MODELS_PATH + 'model_ck_extended_inception_v3_1.h5')
+model = load_model(MODELS_PATH + 'model_ck_extended_vgg_16_2.h5')
 print ('[+] Model loaded')
 
 from quiver_engine.server import launch
